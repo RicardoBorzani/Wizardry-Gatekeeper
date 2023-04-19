@@ -3,7 +3,7 @@ Authentication and security component based on OAuth, OpenID Connect, and Spring
 
 ## Sprint backlog
 
-### Sprint 1:
+### Sprint 12:
 
 - Implement OAuth 2.0 authentication flow (5 points)
 - Add support for OpenID Connect (3 points)
@@ -11,7 +11,7 @@ Authentication and security component based on OAuth, OpenID Connect, and Spring
 - Implement role-based access control (RBAC) (5 points)
 - Write unit tests for authentication and authorization (2 points)
 
-### Sprint 2
+### Sprint 13
 
 - Improve authentication and authorization performance (5 points)
 - Implement multi-factor authentication (MFA) (8 points)
@@ -19,7 +19,7 @@ Authentication and security component based on OAuth, OpenID Connect, and Spring
 - Write integration tests for OAuth, OpenID Connect, and RBAC (3 points)
 - Refactor code to improve readability and maintainability (5 points)
 
-### Sprint 3
+### Sprint 14
 
 - Implement API rate limiting and throttling (5 points)
 - Add support for third-party identity providers (e.g., Google, Facebook) (8 points)
@@ -27,7 +27,7 @@ Authentication and security component based on OAuth, OpenID Connect, and Spring
 - Write integration tests for API security features (3 points)
 - Refactor code to improve readability and maintainability (5 points)
 
-### Sprint 4
+### Sprint 15
 
 - Implement audit logging and monitoring (5 points)
 - Add support for encryption and decryption of sensitive data (8 points)
