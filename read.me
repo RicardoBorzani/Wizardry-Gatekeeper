@@ -1,0 +1,17 @@
+Wizardry-Gatekeeper-patch-4C: Implement two-factor authentication (2FA)
+
+This Pull Request adds support for two-factor authentication (2FA) to our application. By requiring users to provide two forms of identification, 2FA can greatly enhance the security of our users' accounts and reduce the risk of unauthorized access. Here are the tasks that were completed to implement 2FA:
+
+Tasks
+1: Choose and implement a 2FA method. We have chosen to implement app-based authentication using the Google Authenticator app. The app generates a unique verification code that the user must enter along with their password to complete the login process.
+2: Update the authentication flow to include 2FA verification step. We have modified the login form to include a field for the 2FA code, and added a step in the authentication flow to verify the code before granting access to the user.
+3: Modify the user model to include a 2FA status and 2FA recovery options. We have added a two_factor_enabled boolean field to the User model to track whether 2FA is enabled for the user, and added fields for backup codes and a recovery phone number or email address.
+4: Add support for 2FA in user registration and management. We have added options for users to enable 2FA during registration and to manage their 2FA settings in their account profile.
+5: Write unit tests for 2FA verification and recovery. We have added unit tests to ensure that the 2FA verification and recovery methods are working correctly.
+6: Write integration tests for 2FA verification in the authentication flow. We have added integration tests to ensure that the 2FA verification step is integrated correctly into the login process.
+7: Write integration tests for 2FA recovery options. We have added integration tests to ensure that users can successfully recover their 2FA settings using backup codes or recovery options.
+8: Update documentation and user guides to include 2FA information and instructions. We have updated the relevant documentation and user-facing interfaces to include information about 2FA and instructions on how to enable and use it.
+9: Refactor code to improve readability and maintainability. We have refactored the code to adhere to coding standards and best practices, and to make it more modular and easier to maintain.
+
+Next Steps
+ - After this Pull Request is merged, we should perform additional testing and monitoring to ensure that 2FA is working correctly and that there are no performance or functionality issues caused by the added security measures. We should also consider adding support for additional 2FA methods in the future to give our users more options for securing their accounts.
